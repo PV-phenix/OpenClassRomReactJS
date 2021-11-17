@@ -14,7 +14,7 @@ function PlantItem({ id, cover, name, water, light }) {
 	)
 }
 function handleClick(plantName,e) {
-    console.log('✨ Ceci est mon event :${plantName}',e) /* ici pas moyen d'afficher*/
+    console.log('✨ Ceci est mon event :${plantName}',e) /* ici pas moyen d'afficher plantName*/
     alert(`Vous voulez acheter 1 ${plantName} ? Très bon choix 🌱✨ ${e.type}`)
 }
 export default PlantItem
